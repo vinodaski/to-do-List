@@ -1,36 +1,41 @@
-body{
-    font-family: Arial, sans-serif;
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6e920c;
+}
+.logo{
+    font-size: 60px;
+}
+nav{
+    margin: 20px;
+    padding: 10px;
+}
+nav a{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.img_container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+.cc{
+    margin: 30px;
+}
+.row1{
+    display: grid;
+    margin: 1%;
+}
+.product{
     text-align: center;
-    margin: 20;
-    padding: 0;
-    background-color: aqua;
+    border: 1px solid crimson;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
 
 }
-.button{
-    gap: 15px;
-
-
+.product button{
+    background-color: rgb(195, 204, 69);
+    margin: 15px;
+    border-radius: 15px;
 }
-button{
-    font-family: 20px;
-    padding: 10px 20px;
-}
-#increase{
-    background-color: rgb(253, 17, 36);
-    color: rgb(70, 41, 173);
-}
-
-#decrease{
-    background-color: rgb(5, 240, 25);
-    color: rgb(94, 176, 224);
-}
-
-#reset{
-    background-color: rgb(7, 165, 238);
-    color: rgb(139, 173, 16);
-}
-button :hover{
-    opacity: 5;
-
-}
-
