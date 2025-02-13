@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20;
+    padding: 0;
+    background-color: aqua;
+
+}
+.button{
+    gap: 15px;
+
+
+}
+button{
+    font-family: 20px;
+    padding: 10px 20px;
+}
+#increase{
+    background-color: rgb(253, 17, 36);
+    color: rgb(70, 41, 173);
+}
+
+#decrease{
+    background-color: rgb(5, 240, 25);
+    color: rgb(94, 176, 224);
+}
+
+#reset{
+    background-color: rgb(7, 165, 238);
+    color: rgb(139, 173, 16);
+}
+button :hover{
+    opacity: 5;
+
+}
+

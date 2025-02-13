@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+
+}
+nav a{
+    background-color: beige;
+    padding: 10px;
+
+}
+nav a{
+    color: bisque;
+    margin: 0 15px;
+    text-decoration: none;
+
+}
+.container{
+    margin: 50px;
+    max-width: 600px;
+    background-color: blue;
+    padding: 20px;
+    box-shadow: 0px 0px 10px cornsilk(0,0,0,0,1);
+    display: flex;
+    justify-content: space-evenly;
+}
